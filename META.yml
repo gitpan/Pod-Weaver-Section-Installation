@@ -1,0 +1,29 @@
+---
+abstract: 'add an INSTALLATION pod section'
+author:
+  - 'Marcel Gruenauer <marcel@cpan.org>'
+build_requires: {}
+configure_requires:
+  ExtUtils::MakeMaker: 6.11
+generated_by: 'Dist::Zilla version 1.100660'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Pod-Weaver-Section-Installation
+provides:
+  Pod::Weaver::Section::Installation:
+    file: lib/Pod/Weaver/Section/Installation.pm
+    version: 1.100690
+requires:
+  English: 0
+  File::Find: 0
+  File::Temp: 0
+  Moose: 0
+  Moose::Autobox: 0
+  Pod::Weaver::Role::Section: 0
+  Test::More: 0
+  namespace::autoclean: 0
+resources:
+  repository: http://github.com/hanekomu/Pod-Weaver-Section-Installation
+version: 1.100690

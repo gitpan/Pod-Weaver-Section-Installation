@@ -1,0 +1,32 @@
+NAME
+    Pod::Weaver::Section::Installation - add an INSTALLATION pod section
+
+VERSION
+    version 1.100690
+
+SYNOPSIS
+    In "weaver.ini":
+
+        [Installation]
+
+OVERVIEW
+    This section plugin will produce a hunk of Pod that describes how to
+    install the distribution.
+
+FUNCTIONS
+  weave_section
+    adds the "INSTALLATION" section.
+
+INSTALLATION
+    See perlmodinstall for information and options on installing Perl
+    modules.
+
+AUTHOR
+      Marcel Gruenauer <marcel@cpan.org>
+
+COPYRIGHT AND LICENSE
+    This software is copyright (c) 2010 by Marcel Gruenauer.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
+
