@@ -1,8 +1,8 @@
 NAME
-    Pod::Weaver::Section::Installation - add an INSTALLATION pod section
+    Pod::Weaver::Section::Installation - Add an INSTALLATION pod section
 
 VERSION
-    version 1.100690
+    version 1.101420
 
 SYNOPSIS
     In "weaver.ini":
@@ -20,6 +20,24 @@ FUNCTIONS
 INSTALLATION
     See perlmodinstall for information and options on installing Perl
     modules.
+
+BUGS AND LIMITATIONS
+    No bugs have been reported.
+
+    Please report any bugs or feature requests through the web interface at
+    <http://rt.cpan.org/Public/Dist/Display.html?Name=Pod-Weaver-Section-Ins
+    tallation>.
+
+AVAILABILITY
+    The latest version of this module is available from the Comprehensive
+    Perl Archive Network (CPAN). Visit <http://www.perl.com/CPAN/> to find a
+    CPAN site near you, or see
+    <http://search.cpan.org/dist/Pod-Weaver-Section-Installation/>.
+
+    The development version lives at
+    <http://github.com/hanekomu/Pod-Weaver-Section-Installation/>. Instead
+    of sending patches, please fork this project using the standard git and
+    github infrastructure.
 
 AUTHOR
       Marcel Gruenauer <marcel@cpan.org>

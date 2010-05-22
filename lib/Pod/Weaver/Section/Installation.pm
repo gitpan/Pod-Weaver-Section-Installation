@@ -1,15 +1,17 @@
 use strict;  # keep [TestingAndDebugging::RequireUseStrict] happy
 package Pod::Weaver::Section::Installation;
-our $VERSION = '1.100690';
+BEGIN {
+  $Pod::Weaver::Section::Installation::VERSION = '1.101420';
+}
 
-# ABSTRACT: add an INSTALLATION pod section
+# ABSTRACT: Add an INSTALLATION pod section
 use Moose;
 with 'Pod::Weaver::Role::Section';
 use namespace::autoclean;
 use Moose::Autobox;
 
 sub weave_section {
-    my ($self, $document, $input) = @_;
+    my ($self, $document) = @_;
     $document->children->push(
         Pod::Elemental::Element::Nested->new(
             {   command  => 'head1',
@@ -33,11 +35,11 @@ __END__
 
 =head1 NAME
 
-Pod::Weaver::Section::Installation - add an INSTALLATION pod section
+Pod::Weaver::Section::Installation - Add an INSTALLATION pod section
 
 =head1 VERSION
 
-version 1.100690
+version 1.101420
 
 =head1 SYNOPSIS
 
@@ -56,9 +58,31 @@ the distribution.
 
 adds the C<INSTALLATION> section.
 
+=for test_synopsis 1;
+__END__
+
 =head1 INSTALLATION
 
 See perlmodinstall for information and options on installing Perl modules.
+
+=head1 BUGS AND LIMITATIONS
+
+No bugs have been reported.
+
+Please report any bugs or feature requests through the web interface at
+L<http://rt.cpan.org/Public/Dist/Display.html?Name=Pod-Weaver-Section-Installation>.
+
+=head1 AVAILABILITY
+
+The latest version of this module is available from the Comprehensive Perl
+Archive Network (CPAN). Visit L<http://www.perl.com/CPAN/> to find a CPAN
+site near you, or see
+L<http://search.cpan.org/dist/Pod-Weaver-Section-Installation/>.
+
+The development version lives at
+L<http://github.com/hanekomu/Pod-Weaver-Section-Installation/>.
+Instead of sending patches, please fork this project using the standard git
+and github infrastructure.
 
 =head1 AUTHOR
 
