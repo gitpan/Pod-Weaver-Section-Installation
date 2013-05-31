@@ -1,5 +1,8 @@
 Revision history for Perl extension Pod-Weaver-Section-Installation
 
+1.101421  2013-05-30
+    - New maintainer: Mike Doherty <doherty@cpan.org>
+
 1.101420  2010-05-22 18:24:13 Europe/Vienna
     - removed weaver.ini since that's handled in Dist::Zilla's [@MARCEL] now
     - removed unused variable
